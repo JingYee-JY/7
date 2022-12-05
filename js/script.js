@@ -1,3 +1,4 @@
+const loading = document.querySelector(".loading");
 const startButton = document.querySelector(".startButton")
 const start = document.querySelector(".start")
 const game = document.querySelector(".game")
@@ -17,6 +18,30 @@ const items = [
   { name: "card2", image: "./images/card2.png" },
   { name: "card3", image: "./images/card3.png" },
 ];
+
+setTimeout(function() {
+  //your code to be executed after 1 second
+
+  document.body.style.display = "block"
+  onLoadSplash();
+
+}, 500);
+
+function onLoadSplash()
+{
+  console.log("Hi")
+  var delayInMilliseconds = 2000;
+  setTimeout(function() {
+      //your code to be executed after 1 second
+      console.log("test")
+      loading.classList.add("fade");
+      var delayInMilliseconds = 2000;
+      setTimeout(function() {
+          //your code to be executed after 1 second
+          loading.classList.add("hide")
+      }, delayInMilliseconds);
+  }, delayInMilliseconds);
+}
 
 document.addEventListener('dblclick', function (event) {
   event.preventDefault();
