@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-EHK7MXVNLL"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-EHK7MXVNLL');
+</script>
+	
+    <link rel="icon" type="image/x-icon" href="./images/favicon.png">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js"></script>
+    <link rel="stylesheet" href="./owlcarousel/assets/owl.carousel.min.css">
+ <link rel="stylesheet" href="./owlcarousel/assets/owl.theme.default.min.css">
+ <script src="./vendors/jquery.min.js"></script>
+ <script src="./owlcarousel/owl.carousel.js"></script>
+    <title>National Gallery Singapore - Memory Challenge</title>
+    <link rel="stylesheet" href="style.css" />
+    <script>
+        const appHeight = () => {
+     const doc = document.documentElement
+     doc.style.setProperty('--app-height', `${window.innerHeight}px`)
+ }
+ window.addEventListener('resize', appHeight)
+ appHeight()
+     </script>
+</head>
+<body>
+    <div class="splash">
+        <div class="top">
+            <img class="logo" src="./images/logo.png">
+        </div>
+        <div class="info-container">
+            <div class="info">
+                <div class="info-text">For the best experience, please<br>rotate your phone vertically.</div>
+                <img class="rotate" src="./images/rotate.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="start">
+        <div class="top">
+            <img class="logo" src="./images/logo.png">
+        </div>
+        <!--added game-title-->
+        <div class="game-title">
+            <img class="title" src="./images/title.png">
+        </div>
+        <div class="preview">
+            <div class="image-container"><img class="image" src="./images/painting.png"></div>
+            <div class="desc">
+                <h3>How to Play?</h3>
+                <p>Challenge yourself! Turn the cards and match the same ones.</p>
+            </div>
+        </div>
+        <button class="startButton">
+            <img class="startbtn" src="./images/start-button.png">
+        </button>
+        <div class="cover-bottom">
+            <img class="image" src="./images/graphic-home.png">
+        </div>
+    </div>
+    <div class="game hide">
+        <div class="instruction">
+            <div class="gametop">
+                <img class="logo" src="./images/logo.png">
+                <a class="back-to-home" onclick="window.location.reload();"><img class="back" src="./images/close.png"></a>
+            </div>
+            <div class="taskGiven">
+                <div class="task">
+                    <p>Match the artworks!</p>
+                </div>
+                <div class="count">
+                    
+                </div>
+            </div>
+        </div>
+        <div class="conatainer">
+            <div class="game-container"></div>
+        </div>
+    </div>
+    <div class="final hide">
+        <div class="top">
+            <img class="logo" src="./images/logo.png">
+        </div>
+        <div class="win-lose"><h2>Well Done!</h2></div>
+        <div class="row">
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <div class="image-card">
+                        <img src="./images/paint-1.png">
+                    </div>
+                    <div class="content-card">
+                        <h3>Pagoda II</h3>
+                        <h4>Latiff Mohidin</h4>
+                        <p>Latiff Mohidin is a leading modern painter and poet, from Malaysia. He often asked himself, "How does one advance the medium of painting, drawing and writing to suit circumstances outside Europe and America?" He was especially interested in the iconic forms and shapes of the landscape and architecture in Southeast Asia.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="image-card">
+                        <img src="./images/paint-2.png">
+                    </div>
+                    <div class="content-card">
+                        <h3>Two Standing Figures</h3>
+                        <h4>Latiff Mohidin</h4>
+                        <p>Latiff Mohidin is a leading modern painter and poet, from Malaysia. He often asked himself, "How does one advance the medium of painting, drawing and writing to suit circumstances outside Europe and America?" He was especially interested in the iconic forms and shapes of the landscape and architecture in Southeast Asia.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="image-card">
+                        <img src="./images/paint-3.png">
+                    </div>
+                    <div class="content-card">
+                        <h3>Wayang Kulit, Siam III</h3>
+                        <h4>Latiff Mohidin</h4>
+                        <p>Latiff Mohidin is a leading modern painter and poet, from Malaysia. He often asked himself, "How does one advance the medium of painting, drawing and writing to suit circumstances outside Europe and America?" He was especially interested in the iconic forms and shapes of the landscape and architecture in Southeast Asia.</p>
+                    </div>
+                </div>
+              </div>
+                </div>
+        <!-- <img class="end" src="./images/painting.png"> -->
+        <div class="screenshoot">
+            <img src="./images/camera.png" alt="camera">
+            <p>Take a <b>screenshot</b> of this page to redeem an Amazing Sketchbook at the Gallery's Keppel Centre for Art Education! While stocks last.
+            </p>
+        </div>
+        <!-- <button class="playAgain">
+            <img class="startbtn" src="./images/playAgain.png">
+        </button> -->
+        <small>Limited to 1 redemption per person, from 3 Dec 2022 to 31 Jan 2023.
+        </small>
+       
+    </div>
+    <script src="./js/script.js"></script>
+    <script src="canvas2image.js"></script>
+    <script src="./vendors/highlight.js"></script>
+    <script src="./js/app.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js"></script>
+    <script src="./js/canvas2image.js"></script>
+
+</body>
+</html>
